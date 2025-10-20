@@ -68,61 +68,99 @@ seaborn>=0.11.0
 ###Usage
 
 Task 1: Iris Classification
+
 python task1_iris_classification/iris_classifier.py
 
 Task 2: MNIST CNN
+
 python task2_mnist_cnn/mnist_cnn.py
 
 Task 3: Amazon Reviews NLP
+
 python task3_nlp_amazon_reviews/nlp_analysis.py
+
 
 ###Technical Implementation
 
 ##Framework Comparison
+
 Scikit-learn: Classical ML algorithms with high-level APIs
+
 TensorFlow/Keras: Deep learning optimized for neural networks
+
 spaCy: NLP with pre-trained models for entity recognition
 
+
 ##Model Architectures
+
 Decision Tree classifier for Iris species classification
+
 Convolutional Neural Network for digit recognition
+
 Rule-based system with spaCy's entity recognition
+
 
 ###Results
 
+
 ##Task 1: Iris Classification
+
 High accuracy in species classification
+
 Comprehensive precision and recall metrics
+
 Feature importance analysis
 
+
 ##Task 2: MNIST CNN
+
 High test accuracy on handwritten digits
+
 Effective training with minimal overfitting
+
 Successful prediction visualizations
 
+
 ##Task 3: Amazon Reviews NLP
+
 Reliable entity extraction (brands, products, dates)
+
 Effective sentiment classification
+
 Context-aware linguistic processing
+
 
 ###Ethical Considerations
 
 ##Identified Biases
+
 Iris Dataset: Potential overfitting due to small size
+
 MNIST CNN: Bias toward common digit writing styles
+
 Amazon Reviews: Limited coverage of obscure brands
 
+
 ##Mitigation Strategies
+
 Cross-validation techniques
+
 Expanded entity patterns and lexicons
+
 Manual validation of edge cases
 
+
 Contributors
+
 Marcus-Garvey Kinyenye
+
 Fancy Nateku Megiri
+
 Luccie
 
+
 License
+
 This project is licensed under the MIT License.
 
 
